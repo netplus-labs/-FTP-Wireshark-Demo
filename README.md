@@ -10,7 +10,7 @@ This lab demonstrates how insecure FTP communications can expose credentials, ca
 ## 1. FileZilla FTP Server Setup  
 Configured FTP server with test users.
 
-![FileZilla Setup](./screenshots/filezilla-setup.png)
+![FileZilla Setup](./images/filezilla-setup.png)
 
 ---
 
