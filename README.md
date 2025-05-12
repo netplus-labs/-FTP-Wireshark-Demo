@@ -44,3 +44,11 @@ Observed login credentials in cleartext within captured packets.
 
 ## 🔐 Lesson
 Always use secure protocols (e.g., SFTP/FTPS). This lab shows how insecure ones like FTP can leak sensitive data easily.
+
+---
+
+## 🎥 Demo Video  
+[Watch the lab walkthrough here FTP+Wireshark 1](https://youtu.be/3RHmCYUC_QM)
+
+[Watch the lab walkthrough here FTP+Wireshark 2](https://youtu.be/u0e0JCnHYNk)
+
