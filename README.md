@@ -17,28 +17,28 @@ Configured FTP server with test users.
 ## 2. Allowing FTP Traffic Through Windows Firewall  
 Created an inbound firewall rule to allow FTP traffic.
 
-![Firewall Rule](./screenshots/firewall-rule.png)
+![Firewall Rule](./Images/firewall-rule.png.png)
 
 ---
 
 ## 3. Wireshark Listening for FTP Credentials  
 Launched Wireshark on Kali Linux to sniff traffic from Windows 10 VM.
 
-![Wireshark Listening](./screenshots/wireshark-sniff.png)
+![Wireshark Listening](./Images/wireshark-sniff.png.png)
 
 ---
 
 ## 4. Logging into FTP Server from Kali  
 Used terminal to connect to the FTP server.
 
-![Login to Server](./screenshots/logging-to-server.png)
+![Login to Server](./Images/logging-to-server.png.png)
 
 ---
 
 ## 5. FTP Credentials Captured in Wireshark  
 Observed login credentials in cleartext within captured packets.
 
-![Captured Credentials](./screenshots/allow-wireshark-to-listen.png)
+![Captured Credentials](./Images/allow-wireshark-to-listen.png.png)
 
 ---
 
