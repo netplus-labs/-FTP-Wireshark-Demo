@@ -1,0 +1,42 @@
+# 📸 FTP + Wireshark Lab: Visual Walkthrough
+
+This document showcases the key stages of the FTP and Wireshark lab in images. These visuals help demonstrate the risks of insecure communication and how packet sniffing can expose credentials.
+
+---
+
+## 🖥️ 1. FileZilla FTP Server Setup  
+Installed and configured FileZilla FTP Server on the Windows 10 VM with users "Que" and "Nangamso".
+
+![FileZilla Setup](./screenshots/filezilla-setup.png)
+
+---
+
+## 🔥 2. Allowing FTP Traffic Through Windows Firewall  
+Created a firewall rule to allow incoming FTP traffic on the Windows 10 VM so the Kali Linux box can communicate over the network.
+
+![Firewall Rule](./screenshots/Create Firewall Rule To Allow FTP Traffic.png)
+
+---
+
+## 🌐 3. Kali Linux Listening with Wireshark  
+Launched Wireshark on Kali to capture traffic from the network, targeting FTP login attempts.
+
+![Wireshark Sniff](./screenshots/wireshark-sniff.png)
+
+---
+
+## 🔑 4. Logging Into the FTP Server via Kali Terminal  
+Used the terminal in Kali to connect to the FTP server on Windows 10 and authenticate using the user credentials.
+
+![Login to Server](./screenshots/Logging to Server.png)
+
+---
+
+## ⚠️ 5. Captured FTP Credentials in Cleartext  
+Wireshark successfully captured and displayed the FTP login credentials — showing how unencrypted protocols can leak sensitive information.
+
+![FTP Credentials](./screenshots/ftp-credentials.png)
+
+---
+
+> 🔐 **Lesson:** This lab highlights the importance of using secure communication protocols (like SFTP or FTPS) and monitoring network traffic to identify potential security risks.
